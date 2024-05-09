@@ -1,23 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Roboto, serif;
     padding: 0;
     margin: 0;
 }
 
 .header {
-    background-color: #1f2937;
-    color: white;
+    background-color: #23232b;
+    color: #ececed;    ;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 15px 40px 15px 40px;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
 }
 
@@ -29,21 +31,24 @@ ul {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 56px;
     margin: 0;
 }
 
 p {
     margin: 0;
+    color: #ececed;
+    margin-top: 20px;
 }
 
 .big-button {
-    background-color: #3882f6;
-    color: white;
+    background-color: #d3167c;
+    color: ececed;
     padding: 10px 20px 10px 20px;
     border-radius: 12px;
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
+    max-width: 150px;
 }
 
 a {
@@ -55,18 +60,22 @@ a {
 .hero-section {
     display: flex;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: #292a50;
     color: white;
     padding: 40px;
     flex-wrap: wrap;
 }
 
 .cards-section-title {
-    font-size: 36px;
+    font-size: 45px;
     font-weight: bold ;
+    color: #ececed;
 }
 
 .hero-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
     flex-basis: 532px;
     padding-right: 70px;
@@ -80,10 +89,13 @@ a {
 .hero-image img {
     max-width: 100%;
     height: auto;
+    border: 4px solid #d3167c;
+    border-radius: 10px;
 }
 
 .cards-section {
     padding: 60px;
+    background-color: #285b77;
 }
 
 .cards-section-title {
@@ -96,22 +108,27 @@ a {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-
 }
 
 .card {
     text-align: center;
+    color: #ececed;
+}
+
+.text {
+    max-width: 250px;
+    font-size: 18px;
 }
 
 .card img {
-    border: 1px solid blue;
+    border: 1px solid #d3167c;
     height: 100px;
     width: 100px;
 }
 
 .quote-section {
-    background-color: #e5e7eb;
-    font-size: 36px;
+    background-color: #292a50;;
+    font-size: 30px;
     font-style: italic;
     text-align: justify;
     padding: 40px;
@@ -123,28 +140,31 @@ a {
     margin: auto;
     text-align: justify;
     max-width: 1000px;
-    min-width: 0px
+    min-width: 0px;
+    color: #ececed;
 }
 
 
 .storti {
     text-align: end;
     padding-right: 45px;
-    min-width: 0px
-}
+    min-width: 0px;
+    color: #ececed;
+} 
 
 .cta-section {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 60px;
+    background-color: #285b77;
 }
 
 .cta {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3882f6;
+    background-color: #06cfce;
     width: 1000px;
     max-width: 1000px;
     gap: 100px;
@@ -152,16 +172,18 @@ a {
     padding: 60px;
     flex-wrap: wrap;
     color: white;
+    font-size: 18px;
 }
 
 h3 {
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
+    color: #8d155e;
 }
 
 
 .small-button {
-    background-color: #3882f6;
+    background-color: #d3167c;
     color: white;
     padding: 5px 25px 5px 25px;
     border-radius: 12px;
@@ -169,7 +191,7 @@ h3 {
 }
 
 .footer {
-    background-color: #1f2937;
+    background-color: #23232b;
     color: white;
     display: flex;
     align-items: center;
@@ -177,4 +199,10 @@ h3 {
     padding-right: 40px;
     justify-content: center;
     padding: 30px;
+    font-size: 18px;
+}
+
+.cta-text {
+    color: #8d155e;
+    font-size: 18px;
 }
