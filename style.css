@@ -15,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 15px 40px 15px 40px;
 }
 
@@ -26,8 +27,10 @@ body {
 ul {
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
     gap: 15px;
     font-size: 18px;
+    padding: 0;
 }
 
 h1 {
@@ -80,6 +83,7 @@ a {
     flex-basis: 532px;
     padding-right: 70px;
     font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .hero-image {
@@ -121,9 +125,9 @@ a {
 }
 
 .card img {
-    border: 1px solid #d3167c;
     height: 100px;
     width: 100px;
+    filter: invert(88%) sepia(3%) saturate(51%) hue-rotate(201deg) brightness(111%) contrast(90%);
 }
 
 .quote-section {
