@@ -46,7 +46,7 @@ p {
 
 .big-button {
     background-color: #d3167c;
-    color: ececed;
+    color: #ececed;
     padding: 10px 20px 10px 20px;
     border-radius: 12px;
     border: none;
@@ -54,10 +54,23 @@ p {
     max-width: 150px;
 }
 
-a {
+.big-button:hover {
+    background-color:#ececed;
+}
+
+.big-button:hover a {
+    color: #d3167c;
+}
+
+li a,
+button a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+
+li a:hover {
+    color:#d3167c;
 }
 
 .hero-section {
@@ -189,9 +202,17 @@ h3 {
 .small-button {
     background-color: #d3167c;
     color: white;
-    padding: 5px 25px 5px 25px;
+    padding: 10px 30px 10px 30px;
     border-radius: 12px;
-    border-color: white;
+    border: none;
+}
+
+.small-button:hover {
+    background-color: white;
+}
+
+.small-button:hover a {
+    color: #d3167c;
 }
 
 .footer {
@@ -209,4 +230,13 @@ h3 {
 .cta-text {
     color: #8d155e;
     font-size: 18px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: #d3167c;
 }
